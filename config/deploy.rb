@@ -12,6 +12,8 @@ set :scm, "git"
 set :repository, "git@github.com:felipegithub/site.git"
 set :branch, "master"
 
+set :rake, "/usr/local/bin/rake"
+
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
